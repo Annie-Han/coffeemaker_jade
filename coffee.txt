@@ -1,0 +1,48 @@
+cleaner
+Concept:
+	String state
+
+Actions:
+	setFull
+	setEmpty
+	checkState
+	
+predicates:
+	isCleanerFull;
+
+
+heater
+
+Concept:
+	String state;
+
+Actions:
+	startHeatCoffee;
+	startHeatWater;
+	stop;
+	
+predicates:
+	isHeaterWorking;
+	
+User
+
+predicates:
+	isMakeCoffee
+	isMakeWater
+	
+action:
+	simCleanerFull
+	simCleanerEmpty
+	makeCoffee
+	heatWater
+	
+Communicater
+
+
+
+	
+	
+	
+
+	
+
